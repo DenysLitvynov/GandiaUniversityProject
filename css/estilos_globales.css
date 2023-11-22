@@ -74,7 +74,7 @@ h3 {
     color: var(--main-color-white);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 170%;
+    font-size: 140%;
     padding: 0.1em 0.1em;
     margin-top: 3em;
     margin-bottom: 3em;
@@ -108,7 +108,7 @@ input {
     align-items: center;
     height: auto;
     color: #1148B3;
-    margin-top: 7em;
+    margin-top: 5em;
     margin-bottom: 2em;
 }
 
@@ -120,4 +120,63 @@ section {
 .datos {
     margin-top: 1em;
     margin-bottom: 1em;
+}
+
+
+/* ESTILOS HEADER */
+header {
+    background-color: #ffffff; /* Color de fondo del encabezado */
+    color: #000000; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5); /* Sombra en la parte inferior */
+    width: 100%; /* Ancho del 100% */
+}
+
+.logo img {
+    max-width: 10em; /* Ajusta según el tamaño de tu logo */
+    margin-left: 40px; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 30px; /* Espaciado entre elementos de menú */
+}
+
+nav ul li:last-child {
+    margin-right: 40px; /* Eliminar margen derecho del último elemento de menú */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1148B3; /* Color del texto del enlace */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*estilo boton*/
+.boton_header {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6em;
+    margin: auto;
+    border-radius: 3em;
+    border: none;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.25);
+    background: var(--second-color-blue);
+    color: var(--main-color-white);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 100%;
+    padding: 0.1em 0.1em;
 }

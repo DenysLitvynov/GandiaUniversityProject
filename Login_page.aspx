@@ -9,6 +9,24 @@
     <link rel="stylesheet" href="/css/estilos_globales.css"/>
 </head>
 <body>
+
+    <!-- Comienza el header -->
+    <header>
+        <div class="logo">
+            <img src="images/logo_universidad.png" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Personal Space</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><button class="boton_header">Log-out</button></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Termina el header -->
+
     <main class="wrapper-forms estilo-form-inicio-sesion">
         <section class="seccion-solicitud">
 
@@ -49,5 +67,7 @@
         </section>
     </main>
 <!-- Termina la seccion general -->
+
+
 </body>
 </html>
