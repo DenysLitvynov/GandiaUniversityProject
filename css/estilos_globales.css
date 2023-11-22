@@ -1,0 +1,123 @@
+﻿/*---------------------------------------------------
+                  Estilos globales
+----------------------------------------------------*/
+
+/*añadimos la tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*añadimos los iconos de bootstrap*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+
+:root {
+    --main-color-white: #ffffff;
+    --main-color-black: #000000;
+    --second-color-blue: #1148B3;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main-color-white);
+    color: var(--main-color-black);
+    flex-direction: column;
+}
+
+/*margenes laterales*/ 
+.wrapper {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+/*Estilos de texto*/
+p {
+    font-size: 90%;
+    font-weight: 400;
+    margin-bottom: 1.4em;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 220%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 140%;
+    margin-bottom: 0.4em;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 150%;
+    margin-bottom: 0.8em;
+    margin-top: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*estilo boton*/
+.boton {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8em;
+    margin: auto;
+    border-radius: 3em;
+    border: none;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.25);
+    background: var(--second-color-blue);
+    color: var(--main-color-white);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 170%;
+    padding: 0.1em 0.1em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+/* estilos para los inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 26px;
+}
+
+.forgot_password {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.7em;
+    margin-left: 0.7em;
+    margin-top: 0.1em;
+    font-weight: 600;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: auto;
+    color: #1148B3;
+    margin-top: 7em;
+    margin-bottom: 2em;
+}
+
+section {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.datos {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
