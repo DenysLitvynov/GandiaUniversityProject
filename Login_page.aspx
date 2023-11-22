@@ -8,7 +8,7 @@
     <title></title>
     <link rel="stylesheet" href="/css/estilos_globales.css"/>
 </head>
-<body>
+<body class ="page">
 
     <!-- Comienza el header -->
     <header>
@@ -19,8 +19,6 @@
             <ul>
                 <li><a href="#">Personal Space</a></li>
                 <li><a href="#">About Us</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms and Conditions</a></li>
                 <li><button class="boton_header">Log-out</button></li>
             </ul>
         </nav>
@@ -67,7 +65,19 @@
         </section>
     </main>
 <!-- Termina la seccion general -->
+    <!-- Contenido principal de tu página -->
 
+    <!-- Contenido principal de tu página -->
+
+    <footer class="mi-footer">
+        <div class="enlaces">
+            <a href="#" style="color: #fff;">Terms and Conditions</a>
+            <a href="#" style="color: #fff;">Privacy Policy</a>
+        </div>
+        <div class="copyright">
+            © GTI Copyright 2023
+        </div>
+    </footer>
 
 </body>
 </html>
