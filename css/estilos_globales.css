@@ -22,6 +22,8 @@ body {
     background-color: var(--main-color-white);
     color: var(--main-color-black);
     flex-direction: column;
+    overflow-x : hidden;
+    width: 100%;
 }
 
 .page {

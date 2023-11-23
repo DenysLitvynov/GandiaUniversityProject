@@ -65,10 +65,8 @@
         </section>
     </main>
 <!-- Termina la seccion general -->
-    <!-- Contenido principal de tu página -->
 
-    <!-- Contenido principal de tu página -->
-
+    <!-- Comienza el footer -->
     <footer class="mi-footer">
         <div class="enlaces">
             <a href="#" style="color: #fff;">Terms and Conditions</a>
@@ -78,6 +76,7 @@
             © GTI Copyright 2023
         </div>
     </footer>
+    <!-- Termina el footer -->
 
 </body>
 </html>

@@ -1,0 +1,109 @@
+﻿/*Estilo de la sección hero donde esta el CTA, primera pantalla de la landing page*/
+#landing-page-hero {
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-image: url("../images/imagen_landing_transparente.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw; /* 100% del ancho del viewport */
+    position: relative;
+    margin: 0; /* Asegura que no haya márgenes */
+    padding: 0; /* Asegura que no haya relleno */
+}
+
+/* Márgenes para el título de la hero */
+    #landing-page-hero h1 {
+        font-size: 250%;
+        position: absolute;
+        width: 100%;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 0;
+    }
+
+/* Márgenes para el párrafo de la hero */
+    #landing-page-hero h2 {
+        font-size: 200%;
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 0em;
+        margin-bottom: 0em;
+    }
+
+/* Estilos para la flecha de bajar */
+.flecha-bajar {
+    position: absolute;
+    bottom: 0.5em;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #06884DFF;
+}
+
+    .flecha-bajar a {
+        color: var(--main-color-white);
+        font-size: 4rem;
+        display: inline-block;
+        animation: flecha_animada 1.5s ease-in-out infinite;
+        padding: 0.3rem;
+        transition: all .5s ease;
+    }
+
+.title_landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: auto;
+    color: #1148B3;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.contenedor_landing {
+    margin-top: 10em; /* Ajusta según sea necesario */
+    margin-bottom: 6em; /* Ajusta según sea necesario */
+}
+
+/*estilo boton*/
+.boton_CTA {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+    margin: auto;
+    border-radius: 3em;
+    border: none;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.25);
+    background: var(--second-color-blue);
+    color: var(--main-color-white);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 150%;
+    padding: 0.1em 0.1em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.imagen-landing {
+    height: 30%;
+    border-radius: 1.1em;
+    max-width: 30%;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 3em;
+    width: 370px;
+    display: block;
+    margin: 5vh auto;
+}
