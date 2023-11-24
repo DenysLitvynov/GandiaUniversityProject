@@ -7,9 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace InglesProyecte
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class WebForm4 : System.Web.UI.Page
     {
-        protected void Page_Load1(object sender, EventArgs e)
+        protected void Page_Load4(object sender, EventArgs e)
         {
 
         }

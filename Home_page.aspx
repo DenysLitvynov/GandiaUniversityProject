@@ -5,7 +5,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Landing page</title>
     <link rel="stylesheet" href="/css/estilos_globales.css"/>
     <link rel="stylesheet" href="/css/estilos_homepage.css"/>
 </head>

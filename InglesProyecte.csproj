@@ -78,6 +78,9 @@
     <Content Include="images\upv-master-2023.png" />
     <Content Include="Web.config" />
     <Content Include="Login_page.aspx" />
+    <Content Include="Student_page.aspx" />
+    <Content Include="Profesor_page.aspx" />
+    <Content Include="Admin_page.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Home_page.aspx.cs">
@@ -94,6 +97,27 @@
     </Compile>
     <Compile Include="Login_page.aspx.designer.cs">
       <DependentUpon>Login_page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student_page.aspx.cs">
+      <DependentUpon>Student_page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student_page.aspx.designer.cs">
+      <DependentUpon>Student_page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor_page.aspx.cs">
+      <DependentUpon>Profesor_page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profesor_page.aspx.designer.cs">
+      <DependentUpon>Profesor_page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_page.aspx.cs">
+      <DependentUpon>Admin_page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_page.aspx.designer.cs">
+      <DependentUpon>Admin_page.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
