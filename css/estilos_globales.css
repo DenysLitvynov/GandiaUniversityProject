@@ -68,6 +68,28 @@ h3 {
     font-family: 'Roboto', sans-serif;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+.tabla{
+    margin-bottom: 10px;
+}
+
+
 /*estilo boton*/
 .boton {
     align-content: center;
@@ -130,6 +152,7 @@ section {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
 
 
 /* ------------------------------------
@@ -202,6 +225,7 @@ nav ul li a {
     align-items: center;
     justify-content: center; /* Centra los elementos verticalmente */
     margin-top: auto; /* Alinea el footer en la parte inferior */
+    margin-bottom:0; /* Alinea el footer en la parte inferior */
     background-color: #1148B3;
     color: #fff;
     padding: 20px;

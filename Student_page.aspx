@@ -27,6 +27,61 @@
   <h1 class="h1">Personal space</h1>
 </div>
 
+<div class="wrapper">
+        <h2>Personal Data</h2>
+        <form >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name"/>
+
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" placeholder="Enter your surname"/>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"/>
+
+            <label for="nationality">Nationality:</label>
+            <input type="text" id="nationality" name="nationality" placeholder="Enter your nationality"/>
+
+            <label for="idNumber">ID Number:</label>
+            <input type="text" id="idNumber" name="idNumber" placeholder="Enter your ID number"/>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" placeholder="Enter your address"></textarea>
+
+            <button type="submit" id="save_changes" class="boton">Save Changes</button>
+        </form>
+
+    <section >
+
+        <h2>Academic Information</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Credits</th>
+                    <th>Semester</th>
+                    <th>Professors</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Subject 1</td>
+                    <td>3</td>
+                    <td>Fall 2023</td>
+                    <td>Prof. A, Prof. B</td>
+                </tr>
+                <tr>
+                    <td>Subject 2</td>
+                    <td>4</td>
+                    <td>Spring 2024</td>
+                    <td>Prof. C, Prof. D</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+     </section>
+    </div>
+
 <!-- Comienza el footer -->
 <footer class="mi-footer">
     <div class="enlaces">

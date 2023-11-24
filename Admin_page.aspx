@@ -7,7 +7,7 @@
     <title>Admin page</title>
     <link rel="stylesheet" href="/css/estilos_globales.css"/>
 </head>
-<body>
+<body >
     <!-- Comienza el header -->
 <header>
     <div class="logo">
@@ -26,6 +26,7 @@
 <div class="title">
   <h1 class="h1">Personal space</h1>
 </div>
+
 
 <!-- Comienza el footer -->
 <footer class="mi-footer">

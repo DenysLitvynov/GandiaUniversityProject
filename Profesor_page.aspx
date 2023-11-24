@@ -7,7 +7,7 @@
     <title>Profesor page</title>
     <link rel="stylesheet" href="/css/estilos_globales.css"/>
 </head>
-<body>
+<body >
     <!-- Comienza el header -->
 <header>
     <div class="logo">
