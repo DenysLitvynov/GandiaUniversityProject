@@ -7,7 +7,7 @@
     <title>Profesor page</title>
     <link rel="stylesheet" href="/css/estilos_globales.css"/>
 </head>
-<body >
+<body class ="page">
     <!-- Comienza el header -->
 <header>
     <div class="logo">
@@ -26,6 +26,40 @@
 <div class="title">
   <h1 class="h1">Personal space</h1>
 </div>
+
+    <div class="wrapper">
+        <section>
+            <h2>Subjects Taught</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Credits</th>
+                        <th>Semester</th>
+                        <th>Details</th>
+                        <th>Students</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Subject 1</td>
+                        <td>3</td>
+                        <td>Fall 2023</td>
+                        <td><a href="#">View Details</a></td>
+                        <td><a href="#">View Students</a></td>
+                    </tr>
+                    <tr>
+                        <td>Subject 2</td>
+                        <td>4</td>
+                        <td>Spring 2024</td>
+                        <td><a href="#">View Details</a></td>
+                        <td><a href="#">View Students</a></td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </section>
+    </div>
 
 <!-- Comienza el footer -->
 <footer class="mi-footer">
