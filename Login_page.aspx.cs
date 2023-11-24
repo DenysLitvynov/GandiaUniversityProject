@@ -17,9 +17,9 @@ namespace InglesProyecte
     {
 
         private SQLiteConnection conn;
-        protected void Page_Load2(object sender, EventArgs e)
+        protected void Page_Load(object sender, EventArgs e)
         {
-            
+           
         }
         protected void BtnLogin_Click(object sender, EventArgs e)
         {

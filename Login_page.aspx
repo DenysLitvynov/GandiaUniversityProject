@@ -35,7 +35,7 @@
                 <h1 class="h1">Log-in</h1>
             </div>
 
-            <form runat="server" onsubmit="BtnLogin_Click">
+            <form runat="server" onsubmit="return false">
             
                 <!-- Comienza la sección DNI -->
                 <div class="datos">
@@ -65,7 +65,7 @@
 
                 <!-- Comienza la sección botón -->
                 <section>
-                    <asp:Link ID="BtnLogin" runat="server" Text="Login" OnClientClick="return false;" CssClass="boton"  />
+                    <asp:Button ID="BtnLogin" runat="server" Text="Login" OnClick="BtnLogin_Click" CssClass="boton"  />
                 </section>
             </form>
         
