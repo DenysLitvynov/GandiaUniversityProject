@@ -8,18 +8,20 @@
     <title>Login page</title>
     <link rel="stylesheet" href="/css/estilos_globales.css"/>
 </head>
-<body class ="page">
+<body class="page">
 
     <!-- Comienza el header -->
     <header>
         <div class="logo">
-            <img src="images/logo_universidad.png" />
+            <a href="Home_page.aspx">
+                <img src="images/logo_universidad.png" />
+            </a>
         </div>
         <nav>
             <ul>
-                <li><a href="#">Personal Space</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><button class="boton_header">Log-out</button></li>
+                <li><a href="">Personal Space</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href=""><asp:Button ID="btnLogin" CssClass="boton_header" Text="Login" /></a></li>
             </ul>
         </nav>
     </header>
@@ -28,43 +30,48 @@
     <main class="wrapper-forms estilo-form-inicio-sesion">
         <section class="seccion-solicitud">
 
-            <!-- Comienza la seccion titulo -->
+            <!-- Comienza la sección título -->
             <div class="title">
-              <h1 class="h1">Log-in</h1>
+                <h1 class="h1">Log-in</h1>
             </div>
 
-            <form>
-                <!-- Comienza la seccion email -->
+            <form runat="server" onsubmit="BtnLogin_Click">
+            
+                <!-- Comienza la sección DNI -->
                 <div class="datos">
-                  <div>
-                    <label for="email">User</label>
-                    <input type="email" id="user-input" name="email" />
-                  </div>
+                    <div>
+                        <label for="dni">DNI</label>
+                        <asp:TextBox ID="dniInput" runat="server"  name="dni" CssClass="form-input" pattern="^\d{8}[a-zA-Z]$" required></asp:TextBox>
+                        
+                    </div>
                 </div>
 
-                <!-- Comienza la seccion contraseña -->
+                <!-- Comienza la sección contraseña -->
                 <div class="datos">
 
-                  <div>
-                    <label for="password">Password</label>
-                    <input type="password" id="password-input" name="password" />
-                  </div>
+                    <div>
+                        <label for="password">Password</label>
 
-                  <div class="forgot_password">
-                    <label>Have you forgotten your password?</label>
-                  </div>
+                        <asp:TextBox ID="passwordInput" runat="server" TextMode="Password" CssClass="form-input" pattern="^.{6,}$" required></asp:TextBox>
+                    </div>
+
+                    <div class="forgot_password">
+                        <asp:TextBox ID="lblError" runat="server" CssClass="error-message" Visible="false"></asp:TextBox>
+                        <label>Have you forgotten your password?</label>
+                    </div>
 
                 </div>
+                
 
-                <!-- Comienza la seccion boton -->
+                <!-- Comienza la sección botón -->
                 <section>
-                  <button id="boton-login" type="submit" class="boton">Login</button>
+                    <asp:Link ID="BtnLogin" runat="server" Text="Login" OnClientClick="return false;" CssClass="boton"  />
                 </section>
-
             </form>
+        
         </section>
     </main>
-<!-- Termina la seccion general -->
+    <!-- Termina la sección general -->
 
     <!-- Comienza el footer -->
     <footer class="mi-footer">
@@ -78,5 +85,6 @@
     </footer>
     <!-- Termina el footer -->
 
+   
 </body>
 </html>
