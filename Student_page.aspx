@@ -7,7 +7,7 @@
     <title>Student page</title>
     <link rel="stylesheet" href="/css/estilos_globales.css"/>
 </head>
-<body>
+<body >
 <!-- Comienza el header -->
 <header>
     <div class="logo">
@@ -46,7 +46,7 @@
             <input type="text" id="idNumber" name="idNumber" placeholder="Enter your ID number"/>
 
             <label for="address">Address:</label>
-            <textarea id="address" name="address" placeholder="Enter your address"></textarea>
+            <textarea id="address" class="textarea" name="address" placeholder="Enter your address"></textarea>
 
             <button type="submit" id="save_changes" class="boton">Save Changes</button>
         </form>
