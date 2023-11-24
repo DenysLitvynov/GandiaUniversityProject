@@ -1,5 +1,4 @@
-﻿
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home_page.aspx.cs" Inherits="InglesProyecte.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home_page.aspx.cs" Inherits="InglesProyecte.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -19,7 +18,7 @@
             <ul>
                 <li><a href="#">Personal Space</a></li>
                 <li><a href="#">About Us</a></li>
-                <li><button class="boton_header">Log-out</button></li>
+                <li><a href="Login_page.aspx"><button class="boton_header">Login</button></a></li>
             </ul>
         </nav>
     </header>
